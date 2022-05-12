@@ -14,7 +14,7 @@
     width: 100%;
     top: 0;
     left: 0;
-    height: 50%;
+    height: 300px;
     background: #f3f4fe;
 
     @media #{$lg} {
@@ -24,7 +24,7 @@
 }
 
 .ud-contact-title {
-  margin-bottom: 150px;
+  margin-bottom: 100px;
 
   @media #{$md, $xs} {
     margin-bottom: 50px;
@@ -48,6 +48,7 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-top: 150px;
 
   @media #{$md, $xs} {
     margin-bottom: 50px;
